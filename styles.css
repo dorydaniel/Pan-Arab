@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@300;700&family=Roboto:wght@300;400;700&display=swap");
+
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+@import "tailwindcss/utilities";
+
+.font-roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700; /*400*/
+}
+.font-roboto-semiregular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.font-roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.font-poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.font-poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.font-montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.font-montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; /*400*/
+}
+
+.font-montserrat-semiregular {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.input-email:placeholder-shown {
+  font-style: italic;
+}
+
+label {
+  font-size: 0.6rem;
+  color: #c7c7c7;
+}
