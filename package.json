@@ -2,6 +2,7 @@
   "name": "pan-arab-nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dorydaniel.github.io/Pan-Arab/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
