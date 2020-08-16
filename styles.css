@@ -6,7 +6,7 @@
 /* purgecss end ignore */
 @import "tailwindcss/utilities";
 
-body {
+* {
   margin: 0%;
 }
 
