@@ -9,6 +9,7 @@ import Subscription from "../components/subscription/Subscription";
 import Trips from "../components/trips/Trips";
 import Flight from "../components/flight/Flight";
 import Footer from "../components/footer/Footer";
+import UpperHeader from "../components/header/UpperHeader";
 
 export default function Home() {
   const [user, setUser] = useState({ email: "" });
@@ -25,6 +26,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <UpperHeader />
       <Header />
       <Slider />
       <Countries />
