@@ -14,7 +14,7 @@ function Slider() {
           </h3>
         </div>
         <div className="my-2 mr-5">
-          <h1 className="font-montserrat-regular text-5.3xl sm:text-5.3xl md:text-5.5xl lg:text-5.5xl xl:text-5.5xl leading-none">
+          <h1 className="font-montserrat-regular text-5xxl sm:text-5xxl md:text-5xxxl lg:text-5xxxl xl:text-5xxxl leading-none">
             Our top <b>destinations</b>
           </h1>
         </div>

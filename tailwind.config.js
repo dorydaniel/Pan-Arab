@@ -42,12 +42,12 @@ module.exports = {
       xl: "1.25rem",
       "1xl": "1.4rem",
       "2xl": "1.5rem",
-      "2.5xl": "1.7rem",
+      "2xxl": "1.7rem",
       "3xl": "1.875rem",
       "4xl": "2.25rem",
       "5xl": "3rem",
-      "5.3xl": "3.15rem",
-      "5.5xl": "3.8rem",
+      "5xxl": "3.15rem", // Header
+      "5xxxl": "3.8rem", // Header, Subscription
       "6xl": "4rem",
       "7xl": "5rem",
     },

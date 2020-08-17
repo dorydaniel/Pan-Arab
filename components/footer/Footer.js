@@ -1,17 +1,12 @@
 function Footer() {
   return (
     <div>
-      {/* <div
-        className="h-64 my-4 bg-no-repeat bg-cover bg-center"
-        style={{ backgroundImage: "url(/images/footer/newslette.png)" }}
-      > */}
       <img
         src="/images/footer/newslette.png"
         alt="Newsletter"
         className="w-full h-full"
       />
-      {/* </div> */}
-      <div className="h-6 sm:h-6 md:h-20 lg:h-24 xl:h-32 bg-grayed"></div>
+      <div className="h-10 sm:h-10 md:h-20 lg:h-24 xl:h-32 bg-grayed"></div>
       <div className="h-24 bg-black flex flex-col justify-around">
         <div className=" font-roboto-light text-grayed text-sm text-center">
           <p>

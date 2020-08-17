@@ -11,7 +11,7 @@ function Trip({ data }) {
           ></div>
         </div>
         <div className="w-1/2 flex flex-col justify-between py-4 px-3">
-          <p className="font-montserrat-semiregular text-2.5xl leading-8 break-words">
+          <p className="font-montserrat-semiregular text-2xxl leading-8 break-words">
             {data.title}
           </p>
           <p className="font-roboto-semiregular text-blue-700 text-md leading-4">

@@ -30,8 +30,8 @@ const UpperHeader = () => {
         </div>
 
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row text-xs sm:text-xs md:text-md lg:text-md xl:text-md">
-          <div className="flex text-white">
-            <div className="justify-center mr-2 mt-1">
+          <div className="flex items-center text-white">
+            <div className="justify-center mr-2">
               <img src="/images/header/lock.svg" alt="Lock" />
             </div>
             <p className="font-roboto-light">

@@ -5,7 +5,7 @@ function Subscription({ email, setEmail }) {
       style={{ backgroundImage: "url(/images/subscription/camels.jpg)" }}
     >
       <div className="w-full sm:w-full md:w-46/100 lg:w-37/100 xl:w-37/100 mx-4 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-20 py-12 px-8 bg-black bg-opacity-50 text-white">
-        <p className="my-4 text-4xl sm:text-4xl md:text-5xl lg:text-5.3xl xl:text-5.3xl font-poppins-bold ">
+        <p className="my-4 text-4xl sm:text-4xl md:text-5xl lg:text-5xxl xl:text-5xxl font-poppins-bold ">
           Be the First
           <br />
           To Know
@@ -27,7 +27,7 @@ function Subscription({ email, setEmail }) {
             className="input-email my-4 px-2 py-1 text-base font-roboto-semiregular bg-transparent border-b border-grayed"
           />
           <button
-            className="my-4 py-2 bg-yellowor text-grayed font-semibold rounded-full focus:outline-none"
+            className="my-4 py-2 bg-yellowor text-grayed font-sans font-semibold rounded-full focus:outline-none"
             onClick={(e) => e.preventDefault()}
           >
             Tell me more!

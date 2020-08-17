@@ -10,7 +10,7 @@ function Flight() {
         className="w-full h-32 bg-no-repeat bg-cover bg-center"
         style={{ backgroundImage: "url(/images/flight/plane.jpg)" }}
       ></div>
-      <div className="mx-3">
+      <div className="mx-3 font-sans">
         <div className="flex flex-col mt-3 mb-8 bg-grayish">
           <div className="flex">
             <button
