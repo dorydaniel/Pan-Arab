@@ -1,6 +1,16 @@
-function Article({ type, title, date, hrVisible }) {
+type Props = {
+  article: {
+    id: string;
+    type: string;
+    title: string;
+    date: string;
+    hrVisible: boolean;
+  };
+};
+
+function Article({ article }: Props) {
   let typeColor = "";
-  switch (type) {
+  switch (article.type) {
     case "Musique":
       typeColor = "text-red-700";
       break;
@@ -26,16 +36,18 @@ function Article({ type, title, date, hrVisible }) {
     <div className="flex flex-col my-6">
       <div className="">
         <p className={`${typeColor} font-poppins-bold text-sm leading-3`}>
-          {type}
+          {article.type}
         </p>
       </div>
       <div className="my-1">
-        <p className="font-poppins-bold text-xl leading-8">{title}</p>
+        <p className="font-poppins-bold text-xl leading-8">{article.title}</p>
       </div>
       <div className="">
-        <p className="font-poppins-light text-sm leading-3">{date}</p>
+        <p className="font-poppins-light text-sm leading-3">{article.date}</p>
       </div>
-      <hr className={`mt-6 border-gray-400 ${!hrVisible && "invisible"}`} />
+      <hr
+        className={`mt-6 border-gray-400 ${!article.hrVisible && "invisible"}`}
+      />
     </div>
   );
 }

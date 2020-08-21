@@ -1,10 +1,8 @@
-function Events() {
-  const events = [
-    { id: "event1", type: "CONCERTS", url: "/images/events/concert.jpg" },
-    { id: "event2", type: "MUSEUMS", url: "/images/events/museum.jpg" },
-    { id: "event3", type: "THEATRES", url: "/images/events/theatre.jpg" },
-    { id: "event4", type: "GALLERIES", url: "/images/events/gallerie.jpg" },
-  ];
+type Props = {
+  events: { id: string; type: string; url: string }[];
+};
+
+function Events({ events }: Props) {
   return (
     <div>
       <div className="bg-yellowor">

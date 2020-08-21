@@ -1,4 +1,9 @@
-function Subscription({ email, setEmail }) {
+type Props = {
+  email: string;
+  setEmail: (e: React.ChangeEvent<HTMLInputElement>) => void;
+};
+
+const Subscription = ({ email, setEmail }: Props) => {
   return (
     <div
       className="flex bg-fixed bg-no-repeat bg-cover pb-20"
@@ -36,6 +41,6 @@ function Subscription({ email, setEmail }) {
       </div>
     </div>
   );
-}
+};
 
 export default Subscription;

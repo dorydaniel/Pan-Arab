@@ -1,4 +1,8 @@
-function Form({ plan }) {
+type Props = {
+  plan: string;
+};
+
+function Form({ plan }: Props) {
   return (
     <div>
       <form action="">

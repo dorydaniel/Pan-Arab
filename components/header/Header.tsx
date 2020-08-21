@@ -6,7 +6,7 @@ function Header() {
           <img
             src="/images/header/PAN-ARAB-AGENDA.png"
             alt="Pan Arab Agenda"
-            className="h-24 w-full"
+            className="h-24 w-full transition"
           />
         </div>
 
